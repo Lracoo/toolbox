@@ -44,8 +44,7 @@ public class Password implements Serializable {
     @ApiModelProperty(value = "网站密码")
     private String password;
 
-    @ApiModelProperty(value = "创建时间
-")
+    @ApiModelProperty(value = "创建时间 ")
     private LocalDateTime createTime;
 
     @ApiModelProperty(value = "修改时间")
