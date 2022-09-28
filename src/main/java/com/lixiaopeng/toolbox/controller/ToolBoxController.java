@@ -1,6 +1,9 @@
 package com.lixiaopeng.toolbox.controller;
 
 
+import com.lixiaopeng.toolbox.service.IPasswordService;
+import com.lixiaopeng.toolbox.service.IPastPasswordService;
+import com.lixiaopeng.toolbox.service.IUserService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,4 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/toolbox")
 public class ToolBoxController {
+
+    private IUserService userService;
+    private IPasswordService passwordService;
+    private IPastPasswordService pastPasswordService;
+
+
+
 }
